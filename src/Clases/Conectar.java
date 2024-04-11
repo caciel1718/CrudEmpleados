@@ -12,7 +12,7 @@ public class Conectar {
    Connection  con; 
     
     public Connection conexion(){
-
+        System.out.println("Se realizara la conexion....");
           try {
             //Class.forName("com.mysql.jdbc.Driver" 
             Class.forName("org.postgresql.Driver");
